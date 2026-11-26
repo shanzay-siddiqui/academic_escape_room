@@ -81,6 +81,28 @@ Inside `final_game.c`:
 - Faaleha Haq (26K-2052)
 - Shanzay Siddiqui (26K-2059)
 
-## License
+## Instructions to Clone and Execute
 
-[Choose a license, for example MIT, and add a `LICENSE` file.]
+Follow these steps to download, compile, and run the game on your Windows machine.
+
+### Step 1: Clone the Repository
+Open your Command Prompt or terminal and execute the following commands:
+
+```bash
+git clone https://github.com
+cd escape-room-game
+```
+
+### Step 2: Compile the Code
+Compile the C source file (`finalgame.c`) using GCC:
+
+```bash
+gcc finalgame.c -o escape_room.exe
+```
+
+### Step 3: Run the Program
+**Windows (Command Prompt):**
+```cmd
+escape_room.exe
+```
+
